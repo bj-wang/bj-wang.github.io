@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #bf01e3;
+  background: #d1ffff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1969,44 +1969,6 @@ pre .javascript .function {
   margin: 2em 0 0;
   padding: 0.5em 1em;
 }
-.followme {
-  align-items: center;
-  background: var(--card-bg-color);
-  border-left: 3px solid #ff2a2a;
-  color: #bbb;
-  margin: 2em 0 1em 0;
-  padding: 1em 1.5em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.followme .social-list {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-}
-.followme .social-list .social-item {
-  margin: 0.5em 2em;
-}
-@media (max-width: 991px) {
-  .followme .social-list .social-item {
-    margin: 0.5em 0.75em;
-  }
-}
-.followme .social-list .social-link {
-  border: 0;
-  display: inline-block;
-  text-align: center;
-}
-.followme .social-list .social-link .icon {
-  font-size: 1.75em;
-  height: 1.75em;
-  width: 1.75em;
-}
-.followme .social-list .social-link .label {
-  display: block;
-  font-size: 14px;
-}
 .category-all-page .category-all-title {
   text-align: center;
 }
@@ -2426,4 +2388,44 @@ hr {
 }
 .sub-menu .menu-item {
   display: inline-block;
+}
+sidebar div.feed-link.motion-element > a {
+  color: #06a2e4;
+}
+sidebar div.feed-link.motion-element > a i {
+  color: #06a2e4;
+}
+.links-of-author a::before,
+.links-of-author span.exturl::before {
+  content: " ";
+  display: inline-block;
+  height: 4px;
+  margin-right: 3px;
+  vertical-align: middle;
+  width: 4px;
+  background: #999;
+  border-radius: 50%;
+}
+.logo-line-before,
+.logo-line-after {
+  display: block;
+  margin: 0px auto;
+  overflow: hidden;
+  width: 0%;
+}
+.site-title {
+  font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: 0;
+}
+.menu-item a,
+.menu-item span.exturl {
+  border-bottom: 0;
+  display: block;
+  font-size: 0.85em;
+  transition-property: border-color;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
 }
