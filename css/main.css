@@ -1104,6 +1104,31 @@ pre .javascript .function {
 .use-motion .menu-item {
   opacity: 0;
 }
+.book-mark-link {
+  border-bottom: none;
+  display: inline-block;
+  position: fixed;
+  right: 30px;
+  top: -10px;
+  transition: 0.3s;
+}
+@media (max-width: 991px) {
+  .book-mark-link {
+    display: none;
+  }
+}
+.book-mark-link::before {
+  color: #55a2f0;
+  content: '\f02e';
+  font-size: 32px;
+  line-height: 1;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+}
+.book-mark-link:hover,
+.book-mark-link-fixed {
+  top: -2px;
+}
 .sidebar {
   background: #222;
   bottom: 0;
@@ -1168,7 +1193,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #409f38;
+  background: #ff6545;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -1494,10 +1519,7 @@ pre .javascript .function {
   position: fixed;
   transition-property: bottom;
   z-index: 1300;
-  width: 24px;
-}
-.back-to-top span {
-  display: none;
+  width: initial;
 }
 .back-to-top:hover {
   color: #87daff;
@@ -2389,12 +2411,6 @@ hr {
 .sub-menu .menu-item {
   display: inline-block;
 }
-sidebar div.feed-link.motion-element > a {
-  color: #06a2e4;
-}
-sidebar div.feed-link.motion-element > a i {
-  color: #06a2e4;
-}
 .links-of-author a::before,
 .links-of-author span.exturl::before {
   content: " ";
@@ -2405,6 +2421,15 @@ sidebar div.feed-link.motion-element > a i {
   width: 4px;
   background: #999;
   border-radius: 50%;
+}
+.links-of-author a,
+.links-of-author span.exturl {
+  border-bottom-color: #555;
+  display: inline-block;
+  font-size: 1em;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 .logo-line-before,
 .logo-line-after {
