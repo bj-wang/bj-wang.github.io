@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #40ff8f;
+  background: #a1ff63;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2441,8 +2441,8 @@ hr {
 }
 /* 文件位置：~/source/_data/styles.styl */
 @font-face {
-  font-family: '方正宋黑';
-  src: url("/fonts/方正宋黑.woff2") format('woff2');
+  font-family: '方正宋黑简体';
+  src: url("/fonts/方正宋黑简体.woff2") format('woff2');
   font-weight: normal;
   font-style: normal;
 }
