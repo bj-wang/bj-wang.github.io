@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9496ff;
+  background: #edaddb;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2436,7 +2436,7 @@ hr {
   text-align: center;
 }
 .posts-expand .post-meta .post-description {
-  font-size: 1em;
+  font-size: 1.25em;
   margin-top: 2px;
 }
 @font-face {
