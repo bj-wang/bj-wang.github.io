@@ -1168,7 +1168,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #8cff0f;
+  background: #8c4a5d;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2439,10 +2439,22 @@ hr {
   font-size: 1em;
   margin-top: 2px;
 }
-/* 文件位置：~/source/_data/styles.styl */
 @font-face {
   font-family: '方正宋黑简体';
   src: url("/fonts/方正宋黑简体.woff2") format('woff2');
   font-weight: normal;
   font-style: normal;
+}
+.site-state {
+  display: flex;
+  justify-content: center;
+  line-height: 1.4;
+  margin-top: 50px;
+  overflow: hidden;
+  text-align: center;
+  white-space: nowrap;
+}
+.cc-license {
+  margin-top: 50px;
+  text-align: center;
 }
