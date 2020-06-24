@@ -1193,7 +1193,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #325700;
+  background: #ff85ff;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2553,10 +2553,10 @@ hr {
   font-style: normal;
 }
 .site-state {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 .cc-license {
-  margin-top: 50px;
+  margin-top: 40px;
 }
 /* webkit, opera, IE9 */
 ::selection {
