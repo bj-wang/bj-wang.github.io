@@ -2,9 +2,9 @@
   --body-bg-color: #fff;
   --content-bg-color: #f5f5f5;
   --card-bg-color: #f5f5f5;
-  --text-color: #555;
+  --text-color: #333;
   --blockquote-color: #666;
-  --link-color: #555;
+  --link-color: #333;
   --link-hover-color: #222;
   --brand-color: #222;
   --brand-hover-color: #222;
@@ -271,7 +271,7 @@ kbd {
   border: 1px solid #ccc;
   border-radius: 0.2em;
   box-shadow: 0.1em 0.1em 0.2em rgba(0,0,0,0.1);
-  color: #555;
+  color: #333;
   font-family: inherit;
   padding: 0.1em 0.3em;
   white-space: nowrap;
@@ -382,6 +382,31 @@ td {
   transform: rotate(45deg);
   top: -5px;
 }
+.highlight-container {
+  position: relative;
+}
+.highlight-container:hover .copy-btn,
+.highlight-container .copy-btn:focus {
+  opacity: 1;
+}
+.copy-btn {
+  color: #333;
+  cursor: pointer;
+  line-height: 1.6;
+  opacity: 0;
+  padding: 2px 6px;
+  position: absolute;
+  transition-delay: 0s;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  background-color: #eee;
+  background-image: linear-gradient(#fcfcfc, #eee);
+  border: 1px solid #d5d5d5;
+  border-radius: 3px;
+  font-size: 0.8125em;
+  right: 4px;
+  top: 8px;
+}
 .highlight,
 pre {
   background: #f7f7f7;
@@ -396,7 +421,7 @@ code {
 code {
   background: #eee;
   border-radius: 3px;
-  color: #555;
+  color: #333;
   padding: 2px 4px;
   overflow-wrap: break-word;
   word-wrap: break-word;
@@ -580,7 +605,7 @@ pre .javascript .function {
   margin-bottom: 10px;
 }
 .post-body .label {
-  color: #555;
+  color: #333;
   display: inline;
   padding: 0 2px;
 }
@@ -1159,7 +1184,7 @@ pre .javascript .function {
 }
 .links-of-author a,
 .links-of-author span.exturl {
-  border-bottom-color: #555;
+  border-bottom-color: #333;
   display: inline-block;
   font-size: 0.8125em;
   margin-bottom: 10px;
@@ -1168,7 +1193,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #edaddb;
+  background: #b422c1;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2145,6 +2170,113 @@ ul.breadcrumb li + li:last-child {
 .tag-cloud a:hover {
   color: var(--link-hover-color) !important;
 }
+.search-pop-overlay {
+  background: rgba(0,0,0,0);
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  transition: visibility 0s linear 0.2s, background 0.2s;
+  visibility: hidden;
+  width: 100%;
+  z-index: 1400;
+}
+.search-pop-overlay.search-active {
+  background: rgba(0,0,0,0.3);
+  transition: background 0.2s;
+  visibility: visible;
+}
+.search-popup {
+  background: var(--card-bg-color);
+  border-radius: 5px;
+  height: 80%;
+  left: calc(50% - 350px);
+  position: fixed;
+  top: 10%;
+  transform: scale(0);
+  transition: transform 0.2s;
+  width: 700px;
+  z-index: 1500;
+}
+.search-active .search-popup {
+  transform: scale(1);
+}
+@media (max-width: 767px) {
+  .search-popup {
+    border-radius: 0;
+    height: 100%;
+    left: 0;
+    margin: 0;
+    top: 0;
+    width: 100%;
+  }
+}
+.search-popup .search-icon,
+.search-popup .popup-btn-close {
+  color: #999;
+  font-size: 18px;
+  padding: 0 10px;
+}
+.search-popup .popup-btn-close {
+  cursor: pointer;
+}
+.search-popup .popup-btn-close:hover .fa {
+  color: #222;
+}
+.search-popup .search-header {
+  background: #eee;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  display: flex;
+  padding: 5px;
+}
+.search-popup input.search-input {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  width: 100%;
+}
+.search-popup input.search-input::-webkit-search-cancel-button {
+  display: none;
+}
+.search-popup .search-input-container {
+  flex-grow: 1;
+  padding: 2px;
+}
+.search-popup ul.search-result-list {
+  margin: 0 5px;
+  padding: 0;
+  width: 100%;
+}
+.search-popup p.search-result {
+  border-bottom: 1px dashed #ccc;
+  padding: 5px 0;
+}
+.search-popup a.search-result-title {
+  font-weight: bold;
+}
+.search-popup .search-keyword {
+  border-bottom: 1px dashed #ff2a2a;
+  color: #ff2a2a;
+  font-weight: bold;
+}
+.search-popup #search-result {
+  display: flex;
+  height: calc(100% - 55px);
+  overflow: auto;
+  padding: 5px 25px;
+}
+.search-popup #no-result {
+  color: #ccc;
+  margin: auto;
+}
+mjx-container[jax="CHTML"][display="true"],
+.has-jax {
+  overflow: auto hidden;
+}
+mjx-container + br {
+  display: none;
+}
 hr {
   height: 2px;
   margin: 20px 0;
@@ -2287,7 +2419,7 @@ hr {
 .menu .menu-item .badge {
   background: #fff;
   border-radius: 10px;
-  color: #555;
+  color: #333;
   padding: 1px 4px;
   text-shadow: 1px 1px 0 rgba(0,0,0,0.1);
 }
@@ -2360,7 +2492,7 @@ hr {
 }
 .sidebar a,
 .sidebar span.exturl {
-  border-bottom-color: #555;
+  border-bottom-color: #333;
   color: #999;
 }
 .sidebar a:hover,
@@ -2399,12 +2531,7 @@ hr {
 }
 .links-of-author a,
 .links-of-author span.exturl {
-  border-bottom-color: #555;
-  display: inline-block;
   font-size: 1em;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  vertical-align: middle;
 }
 .logo-line-before,
 .logo-line-after {
@@ -2414,30 +2541,17 @@ hr {
   width: 0%;
 }
 .site-title {
-  font-family: "方正宋黑简体", 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1.6em;
-  font-weight: normal;
-  margin: 0;
 }
 .menu-item a,
 .menu-item span.exturl {
-  border-bottom: 0;
-  display: block;
   font-size: 0.85em;
-  transition-property: border-color;
-  transition-delay: 0s;
-  transition-duration: 0.2s;
-  transition-timing-function: ease-in-out;
 }
 .site-description {
-  color: #999;
   font-size: 0.85em;
-  margin-top: 5px;
-  text-align: center;
 }
 .posts-expand .post-meta .post-description {
   font-size: 1.25em;
-  margin-top: 2px;
 }
 @font-face {
   font-family: '方正宋黑简体';
@@ -2446,15 +2560,26 @@ hr {
   font-style: normal;
 }
 .site-state {
-  display: flex;
-  justify-content: center;
-  line-height: 1.4;
   margin-top: 50px;
-  overflow: hidden;
-  text-align: center;
-  white-space: nowrap;
 }
 .cc-license {
   margin-top: 50px;
-  text-align: center;
+}
+/* webkit, opera, IE9 */
+::selection {
+  background: #cde9ff;
+  color: #000;
+}
+/* firefox */
+::-moz-selection {
+  background: #cde9ff;
+  color: #000;
+}
+.sidebar-toggle:hover .toggle-line {
+  background: #91c6f8;
+}
+.search-popup .search-keyword {
+  border-bottom: 1px dashed #55a2f0;
+  color: #55a2f0;
+  font-weight: bold;
 }
