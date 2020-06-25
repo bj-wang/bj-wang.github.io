@@ -1188,7 +1188,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #f9177d;
+  background: #8aacc3;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2572,18 +2572,6 @@ hr {
 }
 .footer-inner {
   text-align: center;
-}
-.posts-collapse .post-header::before {
-  background-color: #91c6f8;
-}
-.posts-collapse .collection-year::before {
-  background-color: #91c6f8;
-}
-.posts-collapse .collection-title::before {
-  background-color: #91c6f8;
-}
-.posts-collapse::before {
-  background-color: #eee;
 }
 .feed-link a {
   color: #f26522;
