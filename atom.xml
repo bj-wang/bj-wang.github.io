@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>夏末的只言片语</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://bingjun.wang/"/>
+  <updated>2021-11-08T06:04:02.312Z</updated>
+  <id>https://bingjun.wang/</id>
+  
+  <author>
+    <name>盛夏之末</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新测试</title>
+    <link href="https://bingjun.wang/2021/11/08/new-test/"/>
+    <id>https://bingjun.wang/2021/11/08/new-test/</id>
+    <published>2021-11-08T14:00:54.000Z</published>
+    <updated>2021-11-08T06:04:02.312Z</updated>
+    
+    <summary type="html">
+    
+      更换电脑后的新测试
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="https://bingjun.wang/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Markdown 语法测试</title>
+    <link href="https://bingjun.wang/2020/06/27/Markdown-grammar-test/"/>
+    <id>https://bingjun.wang/2020/06/27/Markdown-grammar-test/</id>
+    <published>2020-06-26T21:09:38.000Z</published>
+    <updated>2020-06-27T01:39:02.763Z</updated>
+    
+    <summary type="html">
+    
+      Markdown 语法测试
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="https://bingjun.wang/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>test_my_site</title>
+    <link href="https://bingjun.wang/2020/06/22/test-my-site/"/>
+    <id>https://bingjun.wang/2020/06/22/test-my-site/</id>
+    <published>2020-06-21T22:13:39.000Z</published>
+    <updated>2020-06-26T22:36:09.288Z</updated>
+    
+    <summary type="html">
+    
+      中文字体测试
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="https://bingjun.wang/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://bingjun.wang/2020/06/21/hello-world/"/>
+    <id>https://bingjun.wang/2020/06/21/hello-world/</id>
+    <published>2020-06-20T23:00:00.000Z</published>
+    <updated>2020-06-26T22:35:47.800Z</updated>
+    
+    <summary type="html">
+    
+      Hexo default post
+    
+    </summary>
+    
+    
+      <category term="测试" scheme="https://bingjun.wang/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+  </entry>
+  
+</feed>

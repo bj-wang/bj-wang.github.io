@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2020/06/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>Markdown 语法测试</title>
+    <url>/2020/06/27/Markdown-grammar-test/</url>
+    <content><![CDATA[<h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<p><em>Italic</em> 中文不使用斜体</p>
+<p><strong>加粗</strong></p>
+<p><em><strong>bold italic</strong></em></p>
+<p><s>删除文字</s></p>
+<p><ins>下划线</ins></p>
+<p><mark>高亮文字</mark></p>
+<blockquote>
+<p>文字引用</p>
+</blockquote>
+<p>En 破折号：–</p>
+<p>Em 破折号：—</p>
+<p>其它标点：，。“双引号”；‘单引号’！……——~《》？@%、（）[]{}</p>
+<p><input type="checkbox" id="checkbox0"><label for="checkbox0">待办</label></p>
+<p><input type="checkbox" id="checkbox1" checked="true"><label for="checkbox1">已完成</label></p>
+<p>整行横线:</p>
+<hr>
+<ul>
+<li>无编号列表，第一级
+<ul>
+<li>无编号列表，第二级
+<ul>
+<li>无编号列表，第三级</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>有编号列表，第一级</li>
+<li>有编号列表，第一级<br>
+2.1. 有编号列表，第二级<br>
+2.1.1. 有编号列表，第三级 <mark>这里效果不好，有待优化</mark></li>
+</ol>
+<p>插图测试：</p>
+<img src="/images/20200626-01.jpg" class="" width="400" title="冰岛">
+<p>Emoji: 😋 🤖 👖</p>
+<p>上标：5 m<sup>2</sup></p>
+<p>下标：CO<sub>2</sub></p>
+<p>链接：<a href="https://www.google.com" target="_blank" rel="noopener">这是链接</a></p>
+<p>脚注：这篇文章主要参考<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>。</p>
+<p>行内代码：按下<code>Shift</code>键</p>
+<p>代码块：</p>
+<figure class="highlight c"><table><tr><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i,j,k;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;<span class="number">5</span>;i++) &#123; <span class="comment">// 以下为三重循环</span></span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">1</span>;j&lt;<span class="number">5</span>;j++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (k=<span class="number">1</span>;k&lt;<span class="number">5</span>;k++) &#123; <span class="comment">// 确保i、j、k三位互不相同</span></span><br><span class="line">                <span class="keyword">if</span> (i!=k&amp;&amp;i!=j&amp;&amp;j!=k) &#123; </span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">"%d,%d,%d\n"</span>,i,j,k);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>表格：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">名字</th>
+<th style="text-align:center">性别</th>
+<th style="text-align:left">年龄</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">张三</td>
+<td style="text-align:center">男</td>
+<td style="text-align:left">18</td>
+</tr>
+<tr>
+<td style="text-align:right">李四</td>
+<td style="text-align:center">女</td>
+<td style="text-align:left">20</td>
+</tr>
+</tbody>
+</table>
+<p>行内数学公式：$V=\frac{4}{3}\pi R^3$</p>
+<p>单行数学公式：<br>
+\begin{equation}<br>
+U_M = \sqrt{\sum_{i=1}^m \left(\frac{\partial f}{\partial x_i}\cdot U_{xi}\right)^2}<br>
+\end{equation}</p>
+<p>自定义容器<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>：</p>
+<div class="tip">
+<p>This is a tip</p>
+</div>
+<div class="success">
+<p>This is a success</p>
+</div>
+<div class="warning">
+<p>This is a warning</p>
+</div>
+<div class="danger">
+<p>This is a dangerous warning</p>
+</div>
+<br />
+<p>上面一行添加了额外的空行，通过<code>&lt;br /&gt;</code>实现</p>
+<p>    首行缩进，通过En空格实现</p>
+<p>  首行缩进，通过Em空格实现</p>
+<p>特殊符号示例<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>：<em>ξ θ ω</em></p>
+<p><font color=red> 红色文字 </font></p>
+<p><font color=#b100b1> 任意颜色文字 </font></p>
+<p><font size=6> 改变字号 </font></p>
+<p>使用Markdown的<code>Note</code>功能（样式为<code>flat</code>，开启图标）:</p>
+<div class="note default">
+            <p>default</p>
+          </div>
+
+<div class="note primary">
+            <p>primary</p>
+          </div>
+<div class="note success">
+            <p>success 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例</p>
+          </div>
+
+<div class="note info">
+            <p>info</p>
+          </div>
+<div class="note warning">
+            <p>warning</p>
+          </div>
+
+<div class="note danger">
+            <p>danger</p>
+          </div>
+<br />
+<p>居中引用：</p>
+<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>江雨霏霏江草齐，六朝如梦鸟空啼。<br>
+无情最是台城柳，依旧烟笼十里堤。</p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<br />
+<p>带出处的引用：</p>
+<blockquote><p>陌生人，我也为你祝福<br>
+愿你有一个灿烂的前程<br>
+愿你有情人终成眷属<br>
+愿你在尘世获得幸福</p>
+<footer><strong>海子</strong><cite>《面朝大海，春暖花开》</cite></footer></blockquote>
+<br />
+<p align="left"> 左对齐 </p>
+<center> 居中对齐 </center>
+<p align="right"> 右对齐 </p>
+<p>对于HexoEditor编辑器，<ins>似乎</ins>一次回车等于Word中的软回车，两次回车等于硬回车。待确定。</p>
+<br /><hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://markdown-it.github.io/" target="_blank" rel="noopener">https://markdown-it.github.io/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/" target="_blank" rel="noopener">https://guanqr.com/tech/website/hexo-theme-next-customization/</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="http://blog.maqingbo.com/20190312/f6dfbcb.html" target="_blank" rel="noopener">http://blog.maqingbo.com/20190312/f6dfbcb.html</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://www.freeformatter.com/html-entities.html#misc-html-entities" target="_blank" rel="noopener">https://www.freeformatter.com/html-entities.html#misc-html-entities</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>新测试</title>
+    <url>/2021/11/08/new-test/</url>
+    <content><![CDATA[<p>更换了新的电脑，重新部署一下博客，测试~</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>test_my_site</title>
+    <url>/2020/06/22/test-my-site/</url>
+    <content><![CDATA[<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
+<p>注：中文字体为方正宋黑。</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+</search>

@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.2.1">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-bw-20200627.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-bw-20200627.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-bw-20200627.png">
+  <link rel="mask-icon" href="/images/logo-bw-20200627.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,400,400italic,700,700italic&display=swap&subset=latin,latin-ext">
+<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+
+<script id="hexo-configurations">
+    var NexT = window.NexT || {};
+    var CONFIG = {"hostname":"bingjun.wang","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","width":300,"display":"always","padding":40,"offset":12,"onmobile":true},"copycode":{"enable":true,"show_result":true,"style":"default"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#55a2f0","save":"manual"},"fancybox":true,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
+  </script>
+
+  <meta name="description" content="Markdown 语法测试">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown 语法测试">
+<meta property="og:url" content="https://bingjun.wang/2020/06/27/Markdown-grammar-test/index.html">
+<meta property="og:site_name" content="夏末的只言片语">
+<meta property="og:description" content="Markdown 语法测试">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://bingjun.wang/images/20200626-01.jpg">
+<meta property="article:published_time" content="2020-06-26T21:09:38.000Z">
+<meta property="article:modified_time" content="2020-06-27T01:39:02.763Z">
+<meta property="article:author" content="盛夏之末">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://bingjun.wang/images/20200626-01.jpg">
+
+<link rel="canonical" href="https://bingjun.wang/2020/06/27/Markdown-grammar-test/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome : false,
+    isPost : true,
+    lang   : 'zh-CN'
+  };
+</script>
+
+  <title>Markdown 语法测试 | 夏末的只言片语</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+<link rel="alternate" href="/atom.xml" title="夏末的只言片语" type="application/atom+xml">
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+
+  <div class="site-meta">
+
+    <a href="/" class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <h1 class="site-title">夏末的只言片语</h1>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+
+  <div class="site-nav-right">
+    <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
+    </div>
+  </div>
+</div>
+
+
+
+
+<nav class="site-nav">
+  <ul id="menu" class="main-menu menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-layer-group fa-fw"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-folder-open fa-fw"></i>全部博文</a>
+
+  </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于博主</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
+  </ul>
+</nav>
+
+
+
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
+
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content post posts-expand">
+            
+
+    
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="https://bingjun.wang/2020/06/27/Markdown-grammar-test/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar-bw.gif">
+      <meta itemprop="name" content="盛夏之末">
+      <meta itemprop="description" content="合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="夏末的只言片语">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          Markdown 语法测试
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar-minus"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-06-26 22:09:38" itemprop="dateCreated datePublished" datetime="2020-06-26T22:09:38+01:00">2020-06-26</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-06-27 02:39:02" itemprop="dateModified" datetime="2020-06-27T02:39:02+01:00">2020-06-27</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%B5%8B%E8%AF%95/" itemprop="url" rel="index"><span itemprop="name">测试</span></a>
+                </span>
+            </span>
+
+          
+            <span class="post-meta-item" title="字数">
+              <span class="post-meta-item-icon">
+                <i class="far fa-edit"></i>
+              </span>
+                <span class="post-meta-item-text">字数</span>
+              <span>1.4k</span>
+            </span>
+            <span class="post-meta-item" title="约需">
+              <span class="post-meta-item-icon">
+                <i class="far fa-clock"></i>
+              </span>
+                <span class="post-meta-item-text">约需 </span>
+              <span>3 分钟</span>
+            </span>
+            <div class="post-description">Markdown 语法测试</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h2 id="二级标题">二级标题</h2>
+<h3 id="三级标题">三级标题</h3>
+<p><em>Italic</em> 中文不使用斜体</p>
+<p><strong>加粗</strong></p>
+<p><em><strong>bold italic</strong></em></p>
+<p><s>删除文字</s></p>
+<p><ins>下划线</ins></p>
+<p><mark>高亮文字</mark></p>
+<blockquote>
+<p>文字引用</p>
+</blockquote>
+<p>En 破折号：–</p>
+<p>Em 破折号：—</p>
+<p>其它标点：，。“双引号”；‘单引号’！……——~《》？@%、（）[]{}</p>
+<p><input type="checkbox" id="checkbox0"><label for="checkbox0">待办</label></p>
+<p><input type="checkbox" id="checkbox1" checked="true"><label for="checkbox1">已完成</label></p>
+<p>整行横线:</p>
+<hr>
+<ul>
+<li>无编号列表，第一级
+<ul>
+<li>无编号列表，第二级
+<ul>
+<li>无编号列表，第三级</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<ol>
+<li>有编号列表，第一级</li>
+<li>有编号列表，第一级<br>
+2.1. 有编号列表，第二级<br>
+2.1.1. 有编号列表，第三级 <mark>这里效果不好，有待优化</mark></li>
+</ol>
+<p>插图测试：</p>
+<img src="/images/20200626-01.jpg" class="" width="400" title="冰岛">
+<p>Emoji: 😋 🤖 👖</p>
+<p>上标：5 m<sup>2</sup></p>
+<p>下标：CO<sub>2</sub></p>
+<p>链接：<a href="https://www.google.com" target="_blank" rel="noopener">这是链接</a></p>
+<p>脚注：这篇文章主要参考<sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup> <sup class="footnote-ref"><a href="#fn2" id="fnref2">[2]</a></sup>。</p>
+<p>行内代码：按下<code>Shift</code>键</p>
+<p>代码块：</p>
+<figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"> </span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> i,j,k;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">"\n"</span>);</span><br><span class="line">    <span class="keyword">for</span>(i=<span class="number">1</span>;i&lt;<span class="number">5</span>;i++) &#123; <span class="comment">// 以下为三重循环</span></span><br><span class="line">        <span class="keyword">for</span>(j=<span class="number">1</span>;j&lt;<span class="number">5</span>;j++) &#123;</span><br><span class="line">            <span class="keyword">for</span> (k=<span class="number">1</span>;k&lt;<span class="number">5</span>;k++) &#123; <span class="comment">// 确保i、j、k三位互不相同</span></span><br><span class="line">                <span class="keyword">if</span> (i!=k&amp;&amp;i!=j&amp;&amp;j!=k) &#123; </span><br><span class="line">                    <span class="built_in">printf</span>(<span class="string">"%d,%d,%d\n"</span>,i,j,k);</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<p>表格：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:right">名字</th>
+<th style="text-align:center">性别</th>
+<th style="text-align:left">年龄</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:right">张三</td>
+<td style="text-align:center">男</td>
+<td style="text-align:left">18</td>
+</tr>
+<tr>
+<td style="text-align:right">李四</td>
+<td style="text-align:center">女</td>
+<td style="text-align:left">20</td>
+</tr>
+</tbody>
+</table>
+<p>行内数学公式：$V=\frac{4}{3}\pi R^3$</p>
+<p>单行数学公式：<br>
+\begin{equation}<br>
+U_M = \sqrt{\sum_{i=1}^m \left(\frac{\partial f}{\partial x_i}\cdot U_{xi}\right)^2}<br>
+\end{equation}</p>
+<p>自定义容器<sup class="footnote-ref"><a href="#fn3" id="fnref3">[3]</a></sup>：</p>
+<div class="tip">
+<p>This is a tip</p>
+</div>
+<div class="success">
+<p>This is a success</p>
+</div>
+<div class="warning">
+<p>This is a warning</p>
+</div>
+<div class="danger">
+<p>This is a dangerous warning</p>
+</div>
+<br />
+<p>上面一行添加了额外的空行，通过<code>&lt;br /&gt;</code>实现</p>
+<p>    首行缩进，通过En空格实现</p>
+<p>  首行缩进，通过Em空格实现</p>
+<p>特殊符号示例<sup class="footnote-ref"><a href="#fn4" id="fnref4">[4]</a></sup>：<em>ξ θ ω</em></p>
+<p><font color=red> 红色文字 </font></p>
+<p><font color=#b100b1> 任意颜色文字 </font></p>
+<p><font size=6> 改变字号 </font></p>
+<p>使用Markdown的<code>Note</code>功能（样式为<code>flat</code>，开启图标）:</p>
+<div class="note default">
+            <p>default</p>
+          </div>
+
+<div class="note primary">
+            <p>primary</p>
+          </div>
+<div class="note success">
+            <p>success 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例 多行文字示例</p>
+          </div>
+
+<div class="note info">
+            <p>info</p>
+          </div>
+<div class="note warning">
+            <p>warning</p>
+          </div>
+
+<div class="note danger">
+            <p>danger</p>
+          </div>
+<br />
+<p>居中引用：</p>
+<blockquote class="blockquote-center">
+            <i class="fa fa-quote-left"></i>
+            <p>江雨霏霏江草齐，六朝如梦鸟空啼。<br>
+无情最是台城柳，依旧烟笼十里堤。</p>
+
+            <i class="fa fa-quote-right"></i>
+          </blockquote>
+<br />
+<p>带出处的引用：</p>
+<blockquote><p>陌生人，我也为你祝福<br>
+愿你有一个灿烂的前程<br>
+愿你有情人终成眷属<br>
+愿你在尘世获得幸福</p>
+<footer><strong>海子</strong><cite>《面朝大海，春暖花开》</cite></footer></blockquote>
+<br />
+<p align="left"> 左对齐 </p>
+<center> 居中对齐 </center>
+<p align="right"> 右对齐 </p>
+<p>对于HexoEditor编辑器，<ins>似乎</ins>一次回车等于Word中的软回车，两次回车等于硬回车。待确定。</p>
+<br /><hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p><a href="https://markdown-it.github.io/" target="_blank" rel="noopener">https://markdown-it.github.io/</a> <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn2" class="footnote-item"><p><a href="https://guanqr.com/tech/website/hexo-theme-next-customization/" target="_blank" rel="noopener">https://guanqr.com/tech/website/hexo-theme-next-customization/</a> <a href="#fnref2" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn3" class="footnote-item"><p><a href="http://blog.maqingbo.com/20190312/f6dfbcb.html" target="_blank" rel="noopener">http://blog.maqingbo.com/20190312/f6dfbcb.html</a> <a href="#fnref3" class="footnote-backref">↩︎</a></p>
+</li>
+<li id="fn4" class="footnote-item"><p><a href="https://www.freeformatter.com/html-entities.html#misc-html-entities" target="_blank" rel="noopener">https://www.freeformatter.com/html-entities.html#misc-html-entities</a> <a href="#fnref4" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+
+    </div>
+
+    
+    
+    
+
+
+<div>
+    
+        <div class="end-slogan" style="text-align:center;font-size:1em;letter-spacing:10px;user-select:none;color:#999;">
+        ———全文完———<br/></div>
+    
+</div> 
+
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>本文作者： </strong>盛夏之末
+  </li>
+  <li class="post-copyright-link">
+    <strong>本文链接：</strong>
+    <a href="https://bingjun.wang/2020/06/27/Markdown-grammar-test/" title="Markdown 语法测试">https://bingjun.wang/2020/06/27/Markdown-grammar-test/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>版权声明： </strong>本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" rel="noopener" target="_blank"><i class="fab fa-fw fa-creative-commons"></i>BY-NC-SA</a> 许可协议。转载请注明出处！
+  </li>
+</ul>
+</div>
+
+
+      <footer class="post-footer">
+
+        
+
+
+        
+    <div class="post-nav">
+      <div class="post-nav-item">
+    <a href="/2020/06/22/test-my-site/" rel="prev" title="test_my_site">
+      <i class="fa fa-chevron-left"></i> test_my_site
+    </a></div>
+      <div class="post-nav-item">
+    <a href="/2021/11/08/new-test/" rel="next" title="新测试">
+      新测试 <i class="fa fa-chevron-right"></i>
+    </a></div>
+    </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+
+
+          </div>
+          
+
+<script>
+  window.addEventListener('tabs:register', () => {
+    let { activeClass } = CONFIG.comments;
+    if (CONFIG.comments.storage) {
+      activeClass = localStorage.getItem('comments_active') || activeClass;
+    }
+    if (activeClass) {
+      let activeTab = document.querySelector(`a[href="#comment-${activeClass}"]`);
+      if (activeTab) {
+        activeTab.click();
+      }
+    }
+  });
+  if (CONFIG.comments.storage) {
+    window.addEventListener('tabs:click', event => {
+      if (!event.target.matches('.tabs-comment .tab-content .tab-pane')) return;
+      let commentClass = event.target.classList[1];
+      localStorage.setItem('comments_active', commentClass);
+    });
+  }
+</script>
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#二级标题"><span class="nav-number">1.</span> <span class="nav-text">二级标题</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#三级标题"><span class="nav-number">1.1.</span> <span class="nav-text">三级标题</span></a></li></ol></li></ol></div>
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="盛夏之末"
+      src="/images/avatar-bw.gif">
+  <p class="site-author-name" itemprop="name">盛夏之末</p>
+  <div class="site-description" itemprop="description">合抱之木，生于毫末；九层之台，起于累土；千里之行，始于足下。</div>
+</div>
+
+
+   <div class="feed-link motion-element">
+     <a href="/atom.xml" rel="alternate">
+       <i class="fa fa-rss-square"></i>
+       RSS
+     </a>
+   </div>
+ 
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">4</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+        <a href="mailto:bjwang1995@gmail.com" title="邮箱 → mailto:bjwang1995@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="https://weibo.com/wbjziv" title="微博 → https:&#x2F;&#x2F;weibo.com&#x2F;wbjziv" rel="noopener" target="_blank"><i class="fab fa-weibo fa-fw"></i></a>
+      </span>
+      <span class="links-of-author-item">
+        <a href="/images/wechat-bw.jpg" title="个人微信 → &#x2F;images&#x2F;wechat-bw.jpg"><i class="fab fa-weixin fa-fw"></i></a>
+      </span>
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+        
+
+<div class="copyright">
+  
+  &copy; 2020 – 
+  <span itemprop="copyrightYear">2021</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">盛夏之末</span>
+</div>
+  <div class="powered-by">基于 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 创建
+  </div>
+
+        
+
+
+
+
+
+
+
+
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+<script src="/js/motion.js"></script>
+
+
+<script src="/js/schemes/muse.js"></script>
+
+
+<script src="/js/next-boot.js"></script>
+
+
+
+
+  
+
+
+
+
+  
+<script src="/js/local-search.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+      
+
+<script>
+  if (typeof MathJax === 'undefined') {
+    window.MathJax = {
+      loader: {
+        source: {
+          '[tex]/amsCd': '[tex]/amscd',
+          '[tex]/AMScd': '[tex]/amscd'
+        }
+      },
+      tex: {
+        inlineMath: {'[+]': [['$', '$']]},
+        tags: 'ams'
+      },
+      options: {
+        renderActions: {
+          findScript: [10, doc => {
+            document.querySelectorAll('script[type^="math/tex"]').forEach(node => {
+              const display = !!node.type.match(/; *mode=display/);
+              const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+              const text = document.createTextNode('');
+              node.parentNode.replaceChild(text, node);
+              math.start = {node: text, delim: '', n: 0};
+              math.end = {node: text, delim: '', n: 0};
+              doc.math.push(math);
+            });
+          }, '', false],
+          insertedScript: [200, () => {
+            document.querySelectorAll('mjx-container').forEach(node => {
+              let target = node.parentNode;
+              if (target.nodeName.toLowerCase() === 'li') {
+                target.parentNode.classList.add('has-jax');
+              }
+            });
+          }, '', false]
+        }
+      }
+    };
+    (function () {
+      var script = document.createElement('script');
+      script.src = '//cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js';
+      script.defer = true;
+      document.head.appendChild(script);
+    })();
+  } else {
+    MathJax.startup.document.state(0);
+    MathJax.texReset();
+    MathJax.typeset();
+  }
+</script>
+
+    
+
+  
+
+</body>
+</html>
