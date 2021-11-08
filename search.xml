@@ -47,15 +47,6 @@
       </categories>
   </entry>
   <entry>
-    <title>新测试</title>
-    <url>/2021/11/08/new-test/</url>
-    <content><![CDATA[<p>更换了新的电脑，重新部署一下博客，测试~</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Markdown 语法测试</title>
     <url>/2020/06/27/Markdown-grammar-test/</url>
     <content><![CDATA[<h2 id="二级标题">二级标题</h2>
@@ -207,6 +198,15 @@ U_M = \sqrt{\sum_{i=1}^m \left(\frac{\partial f}{\partial x_i}\cdot U_{xi}\right
 </li>
 </ol>
 </section>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>新测试</title>
+    <url>/2021/11/08/new-test/</url>
+    <content><![CDATA[<p>更换了新的电脑，重新部署一下博客，测试~</p>
 ]]></content>
       <categories>
         <category>测试</category>
