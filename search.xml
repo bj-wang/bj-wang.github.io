@@ -1,30 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2020/06/21/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
     <title>test_my_site</title>
-    <url>/2020/06/22/test-my-site/</url>
+    <url>/2020/06/21/test-my-site/</url>
     <content><![CDATA[<p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
 <p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
 <p>一霎时把七情俱已昧尽，参透了酸辛处泪湿衣襟。我只道铁富贵一生注定，又谁知人生数顷刻分明。想当年我也曾撒娇使性，到今朝哪怕我不信前尘。这也是老天爷一番教训，他教我收余恨，免娇嗔，且自新，改性情，休恋逝水，苦海回身，早悟兰因。</p>
@@ -47,18 +25,22 @@
       </categories>
   </entry>
   <entry>
-    <title>新测试</title>
-    <url>/2021/11/08/new-test/</url>
-    <content><![CDATA[<p>更换了新的电脑，重新部署一下博客，测试一下~</p>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-  </entry>
-  <entry>
-    <title>再测试！</title>
-    <url>/2021/11/09/test-again/</url>
-    <content><![CDATA[<p>没啥内容，再测试一次~</p>
+    <title>Hello World</title>
+    <url>/2020/06/21/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
 ]]></content>
       <categories>
         <category>测试</category>
@@ -66,7 +48,7 @@
   </entry>
   <entry>
     <title>Markdown 语法测试</title>
-    <url>/2020/06/27/Markdown-grammar-test/</url>
+    <url>/2020/06/26/Markdown-grammar-test/</url>
     <content><![CDATA[<h2 id="二级标题">二级标题</h2>
 <h3 id="三级标题">三级标题</h3>
 <p><em>Italic</em> 中文不使用斜体</p>
@@ -217,6 +199,30 @@ U_M = \sqrt{\sum_{i=1}^m \left(\frac{\partial f}{\partial x_i}\cdot U_{xi}\right
 </ol>
 </section>
 ]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
+  <entry>
+    <title>再测试！</title>
+    <url>/2021/11/08/test-again/</url>
+    <content><![CDATA[<p>换电脑啦，在新电脑上重新部署了 Hexo，再测试一次~</p>
+<p>有序号公式：<br>
+\begin{equation}<br>
+K^2+A_{\mathrm{exp}}=\alpha t<br>
+\end{equation}</p>
+<p>无序号公式：<br>
+\begin{equation*}<br>
+\int_{t_1}^{t_2} \frac{t^2\sin t}{B_k},\mathrm{d}t = ?<br>
+\end{equation*}</p>
+<p>来个复杂公式😏：<br>
+\begin{equation}<br>
+\frac{V_{\mathrm{o}}\varepsilon_0 \varepsilon_{\mathrm{r}}}{d} + \int_{t_1 \prime}^{t_1 + T} J_{\mathrm{r}},\mathrm{d}t = \int_{t_2}^{t_3} J_{\mathrm{TC}}(t),\mathrm{d}t + \int_{t_3}^{t_3 \prime} J_{\mathrm{TF}}(t),\mathrm{d}t + \int_{t_3 \prime}^{t_2 \prime} J_{\mathrm{TC}}(t),\mathrm{d}t<br>
+\end{equation}<br>
+有点瑕疵啦~😶 表示微小空格的转义字符<code>\,</code>好像没法用。</p>
+<p>emoji: 🐹 🔮 😶</p>
+<p>插图：</p>
+<img src="/images/20211108-01.jpg" class="" width="500" title="KAUST at dusk">]]></content>
       <categories>
         <category>测试</category>
       </categories>

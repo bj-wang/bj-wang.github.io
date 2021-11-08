@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bingjun.wang/"/>
-  <updated>2021-11-08T08:43:43.996Z</updated>
+  <updated>2021-11-08T12:11:26.815Z</updated>
   <id>https://bingjun.wang/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>再测试！</title>
-    <link href="https://bingjun.wang/2021/11/09/test-again/"/>
-    <id>https://bingjun.wang/2021/11/09/test-again/</id>
-    <published>2021-11-08T16:42:28.000Z</published>
-    <updated>2021-11-08T08:43:43.996Z</updated>
+    <link href="https://bingjun.wang/2021/11/08/test-again/"/>
+    <id>https://bingjun.wang/2021/11/08/test-again/</id>
+    <published>2021-11-08T08:42:28.000Z</published>
+    <updated>2021-11-08T12:11:26.815Z</updated>
     
     <summary type="html">
     
@@ -36,29 +36,10 @@
   </entry>
   
   <entry>
-    <title>新测试</title>
-    <link href="https://bingjun.wang/2021/11/08/new-test/"/>
-    <id>https://bingjun.wang/2021/11/08/new-test/</id>
-    <published>2021-11-08T14:00:54.000Z</published>
-    <updated>2021-11-08T06:45:02.736Z</updated>
-    
-    <summary type="html">
-    
-      更换电脑后的新测试
-    
-    </summary>
-    
-    
-      <category term="测试" scheme="https://bingjun.wang/categories/%E6%B5%8B%E8%AF%95/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Markdown 语法测试</title>
-    <link href="https://bingjun.wang/2020/06/27/Markdown-grammar-test/"/>
-    <id>https://bingjun.wang/2020/06/27/Markdown-grammar-test/</id>
-    <published>2020-06-26T21:09:38.000Z</published>
+    <link href="https://bingjun.wang/2020/06/26/Markdown-grammar-test/"/>
+    <id>https://bingjun.wang/2020/06/26/Markdown-grammar-test/</id>
+    <published>2020-06-26T14:09:38.000Z</published>
     <updated>2020-06-27T01:39:02.763Z</updated>
     
     <summary type="html">
@@ -75,9 +56,9 @@
   
   <entry>
     <title>test_my_site</title>
-    <link href="https://bingjun.wang/2020/06/22/test-my-site/"/>
-    <id>https://bingjun.wang/2020/06/22/test-my-site/</id>
-    <published>2020-06-21T22:13:39.000Z</published>
+    <link href="https://bingjun.wang/2020/06/21/test-my-site/"/>
+    <id>https://bingjun.wang/2020/06/21/test-my-site/</id>
+    <published>2020-06-21T15:13:39.000Z</published>
     <updated>2020-06-26T22:36:09.288Z</updated>
     
     <summary type="html">
@@ -96,7 +77,7 @@
     <title>Hello World</title>
     <link href="https://bingjun.wang/2020/06/21/hello-world/"/>
     <id>https://bingjun.wang/2020/06/21/hello-world/</id>
-    <published>2020-06-20T23:00:00.000Z</published>
+    <published>2020-06-20T16:00:00.000Z</published>
     <updated>2020-06-26T22:35:47.800Z</updated>
     
     <summary type="html">
