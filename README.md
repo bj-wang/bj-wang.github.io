@@ -1,1 +1,1 @@
-For [personal blog](https://bingjun.wang).
+For [personal blog](bingjun.wang).
