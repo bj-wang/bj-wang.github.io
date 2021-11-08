@@ -212,4 +212,13 @@ U_M = \sqrt{\sum_{i=1}^m \left(\frac{\partial f}{\partial x_i}\cdot U_{xi}\right
         <category>测试</category>
       </categories>
   </entry>
+  <entry>
+    <title>再测试！</title>
+    <url>/2021/11/09/test-again/</url>
+    <content><![CDATA[<p>没啥内容，再测试一次~</p>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+  </entry>
 </search>
