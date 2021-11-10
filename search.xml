@@ -1,30 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>再测试！</title>
-    <url>/2021/11/08/test-again/</url>
-    <content><![CDATA[<p>换电脑啦，在新电脑上重新部署了 Hexo，再测试一次~</p>
-<p>有序号公式：<br>
-\begin{equation}<br>
-K^2+A_{\mathrm{exp}}=\alpha t<br>
-\end{equation}</p>
-<p>无序号公式：<br>
-\begin{equation*}<br>
-\int_{t_1}^{t_2} \frac{t^2\sin t}{B_k},\mathrm{d}t = ?<br>
-\end{equation*}</p>
-<p>来个复杂公式😏：<br>
-\begin{equation}<br>
-\frac{V_{\mathrm{o}}\varepsilon_0 \varepsilon_{\mathrm{r}}}{d} + \int_{t_1 \prime}^{t_1 + T} J_{\mathrm{r}},\mathrm{d}t = \int_{t_2}^{t_3} J_{\mathrm{TC}}(t),\mathrm{d}t + \int_{t_3}^{t_3 \prime} J_{\mathrm{TF}}(t),\mathrm{d}t + \int_{t_3 \prime}^{t_2 \prime} J_{\mathrm{TC}}(t),\mathrm{d}t<br>
-\end{equation}<br>
-有点瑕疵啦~😶 表示微小空格的转义字符<code>\,</code>好像没法用。</p>
-<p>emoji: 🐹 🔮 😶</p>
-<p>插图：</p>
-<img src="/images/20211108-01.jpg" class="" width="500" title="KAUST at dusk">]]></content>
-      <categories>
-        <category>建站相关</category>
-      </categories>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2020/06/21/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
