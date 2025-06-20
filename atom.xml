@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://bingjun.wang/"/>
-  <updated>2021-11-10T10:23:51.836Z</updated>
+  <updated>2025-06-20T17:44:43.918Z</updated>
   <id>https://bingjun.wang/</id>
   
   <author>
@@ -15,6 +15,25 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>又是一年，凤凰花开</title>
+    <link href="https://bingjun.wang/2025/06/21/2025-graduation/"/>
+    <id>https://bingjun.wang/2025/06/21/2025-graduation/</id>
+    <published>2025-06-20T16:44:07.000Z</published>
+    <updated>2025-06-20T17:44:43.918Z</updated>
+    
+    <summary type="html">
+    
+      写在带的第一届学生，L、N、X、S毕业之际
+    
+    </summary>
+    
+    
+      <category term="生活随笔" scheme="https://bingjun.wang/categories/life/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>Markdown 语法测试</title>
@@ -30,7 +49,7 @@
     </summary>
     
     
-      <category term="建站相关" scheme="https://bingjun.wang/categories/maintenance/"/>
+      <category term="建站相关" scheme="https://bingjun.wang/categories/about-the-site/"/>
     
     
   </entry>
@@ -49,7 +68,7 @@
     </summary>
     
     
-      <category term="建站相关" scheme="https://bingjun.wang/categories/maintenance/"/>
+      <category term="建站相关" scheme="https://bingjun.wang/categories/about-the-site/"/>
     
     
   </entry>
